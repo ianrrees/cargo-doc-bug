@@ -1,0 +1,8 @@
+[package]
+name = "myapp"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+mylib-1 = {package="mylib", path="../mylib-old", version = "1"}
+mylib-2 = {package="mylib", path="../mylib-new", version = "2"}
